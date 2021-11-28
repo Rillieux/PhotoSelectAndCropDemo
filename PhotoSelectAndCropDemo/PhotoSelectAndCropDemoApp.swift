@@ -11,7 +11,7 @@ import SwiftUI
 struct PhotoSelectAndCropDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(image: placeholderImage)
         }
     }
 }

@@ -11,6 +11,9 @@
 		F4EF067E2753C644002A31EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF067D2753C644002A31EA /* ContentView.swift */; };
 		F4EF06802753C646002A31EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EF067F2753C646002A31EA /* Assets.xcassets */; };
 		F4EF06832753C646002A31EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EF06822753C646002A31EA /* Preview Assets.xcassets */; };
+		F4EF068B2753C66C002A31EA /* PhotoSelectAndCrop in Frameworks */ = {isa = PBXBuildFile; productRef = F4EF068A2753C66C002A31EA /* PhotoSelectAndCrop */; };
+		F4EF068D2753C681002A31EA /* SampleImageAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF068C2753C681002A31EA /* SampleImageAttributes.swift */; };
+		F4EF068F2753C68B002A31EA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF068E2753C68B002A31EA /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,8 @@
 		F4EF067D2753C644002A31EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4EF067F2753C646002A31EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4EF06822753C646002A31EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4EF068C2753C681002A31EA /* SampleImageAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleImageAttributes.swift; sourceTree = "<group>"; };
+		F4EF068E2753C68B002A31EA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EF068B2753C66C002A31EA /* PhotoSelectAndCrop in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				F4EF067B2753C644002A31EA /* PhotoSelectAndCropDemoApp.swift */,
+				F4EF068E2753C68B002A31EA /* DetailsView.swift */,
 				F4EF067D2753C644002A31EA /* ContentView.swift */,
+				F4EF068C2753C681002A31EA /* SampleImageAttributes.swift */,
 				F4EF067F2753C646002A31EA /* Assets.xcassets */,
 				F4EF06812753C646002A31EA /* Preview Content */,
 			);
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = PhotoSelectAndCropDemo;
+			packageProductDependencies = (
+				F4EF068A2753C66C002A31EA /* PhotoSelectAndCrop */,
+			);
 			productName = PhotoSelectAndCropDemo;
 			productReference = F4EF06782753C644002A31EA /* PhotoSelectAndCropDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = F4EF066F2753C644002A31EA;
+			packageReferences = (
+				F4EF06892753C66C002A31EA /* XCRemoteSwiftPackageReference "PhotoSelectAndCrop" */,
+			);
 			productRefGroup = F4EF06792753C644002A31EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4EF067E2753C644002A31EA /* ContentView.swift in Sources */,
+				F4EF068F2753C68B002A31EA /* DetailsView.swift in Sources */,
+				F4EF068D2753C681002A31EA /* SampleImageAttributes.swift in Sources */,
 				F4EF067C2753C644002A31EA /* PhotoSelectAndCropDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +357,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4EF06892753C66C002A31EA /* XCRemoteSwiftPackageReference "PhotoSelectAndCrop" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rillieux/PhotoSelectAndCrop";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4EF068A2753C66C002A31EA /* PhotoSelectAndCrop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4EF06892753C66C002A31EA /* XCRemoteSwiftPackageReference "PhotoSelectAndCrop" */;
+			productName = PhotoSelectAndCrop;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4EF06702753C644002A31EA /* Project object */;
 }
