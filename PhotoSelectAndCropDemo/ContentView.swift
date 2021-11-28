@@ -82,6 +82,9 @@ struct ContentView: View {
                                 .padding(.bottom, 18)
                         }
                     }
+                    
+                    // The code of interest
+                    
                     if isGradient {
                         ImagePane(image: image, isEditMode: $isEditMode, renderingMode: renderingMode, linearGradient: LinearGradient(colors: [colors[0], colors[1]], startPoint: .topLeading, endPoint: .bottomTrailing))
                             .frame(width: size, height: size)
@@ -98,6 +101,9 @@ struct ContentView: View {
             }
             .padding(.top, 10)
             Divider()
+            
+            //Settings. You don't need this in your app. Just makes it easier to play with in the demo.
+            
             if !isShowingSettings {
                         Text("Camina Drummer")
                     .font(.title)
