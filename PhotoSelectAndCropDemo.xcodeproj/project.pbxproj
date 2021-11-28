@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4A7BC722753CEB70020057A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F4EF06782753C644002A31EA /* PhotoSelectAndCropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSelectAndCropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EF067B2753C644002A31EA /* PhotoSelectAndCropDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectAndCropDemoApp.swift; sourceTree = "<group>"; };
 		F4EF067D2753C644002A31EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		F4EF067A2753C644002A31EA /* PhotoSelectAndCropDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F4A7BC722753CEB70020057A /* Info.plist */,
 				F4EF067B2753C644002A31EA /* PhotoSelectAndCropDemoApp.swift */,
 				F4EF068E2753C68B002A31EA /* DetailsView.swift */,
 				F4EF067D2753C644002A31EA /* ContentView.swift */,
@@ -288,6 +290,7 @@
 				DEVELOPMENT_TEAM = ENAZ3377RP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoSelectAndCropDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,6 +320,7 @@
 				DEVELOPMENT_TEAM = ENAZ3377RP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoSelectAndCropDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

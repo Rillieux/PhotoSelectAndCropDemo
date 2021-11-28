@@ -86,7 +86,6 @@ struct ContentView: View {
                         ImagePane(image: image, isEditMode: $isEditMode, renderingMode: renderingMode, linearGradient: LinearGradient(colors: [colors[0], colors[1]], startPoint: .topLeading, endPoint: .bottomTrailing))
                             .frame(width: size, height: size)
                             .foregroundColor(themeColor)
-                            .clipShape(Circle())
                     } else {
                         ImagePane(image: image,
                                   isEditMode: $isEditMode,
@@ -94,7 +93,6 @@ struct ContentView: View {
                                   colors: colors)
                             .frame(width: size, height: size)
                             .foregroundColor(themeColor)
-                            
                     }
                 }
             }
