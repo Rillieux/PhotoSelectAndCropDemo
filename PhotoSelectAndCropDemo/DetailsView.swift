@@ -51,7 +51,7 @@ struct DetailsView: View {
 
 struct DemoView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailsView(image: placeholderImage, themeColor: .systemBlue)
+        DetailsView(image: placeholderImage, themeColor: .blue)
     }
 }
 

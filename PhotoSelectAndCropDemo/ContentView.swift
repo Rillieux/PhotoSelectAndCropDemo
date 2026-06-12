@@ -233,7 +233,7 @@ struct ContentView: View {
 extension ContentView {
     class ViewModel: ObservableObject {
         @Published var symbolName: String = "person.crop.circle.fill"
-        func update(_ image: ImageAttributes) {
+        @MainActor func update(_ image: ImageAttributes) {
             if symbolName != "avatar" {
                 image.image = Image(systemName: symbolName.lowercased())
             }

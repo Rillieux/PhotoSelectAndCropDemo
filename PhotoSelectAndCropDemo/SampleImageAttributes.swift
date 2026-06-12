@@ -10,8 +10,9 @@ import PhotoSelectAndCrop
 ///Hard code (enums?) ImageAttributes for use as default images in different parts of a project.
 
 ///Placeholder Examples
-let placeholderImage = ImageAttributes(withSFSymbol: "person.crop.circle.fill")
 
-let placeholderAvatar = ImageAttributes(withImage: "avatar")
+@MainActor let placeholderImage = ImageAttributes(withSFSymbol: "person.crop.circle.fill")
 
-let placeholderAperture = ImageAttributes(withSFSymbol: "camera.aperture")
+@MainActor let placeholderAvatar = ImageAttributes(withImage: "avatar")
+
+@MainActor let placeholderAperture = ImageAttributes(withSFSymbol: "camera.aperture")
