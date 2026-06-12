@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Rillieux/PhotoSelectAndCrop",
       "state" : {
-        "branch" : "claude/determined-noether-47pe17",
-        "revision" : "5e70dbd33cf48cdd502a681e609cf330ab0fb9f4"
+        "revision" : "321a66eec05380ce9cd3835431e502cafff1a83d",
+        "version" : "3.0.0"
       }
     }
   ],
